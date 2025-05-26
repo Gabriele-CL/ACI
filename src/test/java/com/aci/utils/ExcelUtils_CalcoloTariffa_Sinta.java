@@ -15,7 +15,7 @@ public class ExcelUtils_CalcoloTariffa_Sinta {
 
     {
         String excelSheetName = m.getName();
-        File f = new File(System.getProperty("user.dir")+"//src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Puglia.xlsx");
+        File f = new File(System.getProperty("user.dir")+"//src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Bolzano_Dicembre_2024.xlsx");
         FileInputStream fis = new FileInputStream(f);
         Workbook wb = WorkbookFactory.create(fis);
 

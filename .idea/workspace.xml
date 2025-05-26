@@ -5,74 +5,245 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ce6739-aeaa-47df-8104-6a5f91030290" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/CalcoloBolloPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/CalcoloTariffePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/InstanzaRimborso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/Login_Sinta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/Sinta_CalcoloTariffePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/Sinta_Plus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/Sinta_PosizioneTributaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/POM/inserimentoParametri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo_perDatiDichiarati_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo_perTargaPeriodoTributario_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo_perTarga_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloTariffe_Sinta_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_Calcolo_Tariffe_nstar_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_Instanza_Rimborso_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_Instanza_Rimborso_Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_SintaPlus_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/Aci_PosizioneTributaria_Multiplo2_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/Aci_PosizioneTributaria_Multiplo_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/Aci_PosizioneTributaria_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_CalcoloTariffa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_CalcoloTariffa_Sinta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_DatiDichiarati.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_DatiDichiarati_SintaPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_InstanzaRimborso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_PerTarga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_PosizioneTributaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/PropertiesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/121222.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/F4120600" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_NSTAR_2022_Puglia.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_NSTAR_2022_Umbria2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Abruzzo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Basilicata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Puglia.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Umbria_Finale.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_ValledAosta_Finale.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_Lazio_2022.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_Lazio_2022_Finale.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test_Tariffario.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/ACI_CalcoloBollo_perTarga.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/TestBollo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/Test_0001_CalcoloBollo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/Test_0001_CalcoloBollo_SintaPlus.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/Allegato_Prova.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Lazio.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Lazio_08-05-2023.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/Dati_per_Inserimenti_TA_Istanze.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/Testt.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/PosizioneTributaria/Targhe_per_Posizione_Tributaria.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/PosizioneTributaria/Targhe_per_Posizione_Tributaria_Finale.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/PosizioneTributaria/Test_Pos.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Targhe_per_Posizione_Tributaria.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Campania_Speciali_30.08.2023_15.09.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Emilia_Speciali_30.08.2023_15.50.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_07.12.2023_11.01.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_07.12.2023_11.13.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_07.12.2023_13.03.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_08.01.2024_14.54.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_08.01.2024_15.09.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_10.01.2024_16.39.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_10.01.2024_17.26.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_11.12.2023_10.41.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_11.12.2023_10.48.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Bolzano_11.12.2023_10.53.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Emilia_3Mesi_07.12.2023_11.01.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_Trento_13.11.2023_13.58.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_ValleAosta_08.01.2024_17.14.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Sinta_ValledAosta_27.09.2023_11.52.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Speciali_Molise_05.09.2023_15.34.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Speciali_Molise_06.09.2023_16.02.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Abruzzo_05.02.2024_15.06.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Abruzzo_28.02.2024_14.43.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Basilicata_05.02.2024_17.36.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Basilicata_28.02.2024_18.38.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Bolzano_08.02.2024_14.50.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Bolzano_26.02.2024_12.49.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Bolzano_26.02.2024_20.12.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Calabria_05.02.2024_19.47.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Calabria_29.02.2024_12.42.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Campania_06.02.2024_16.39.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Campania_29.02.2024_17.51.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_EmiliaRomagna_06.02.2024_19.07.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_EmiliaRomagna_29.02.2024_20.13.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_FriuliVeneziaGiulia_01.03.2024_15.11.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_FriuliVeneziaGiulia_23.01.2024_11.33.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_FriuliVeneziaGiulia_23.01.2024_11.52.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_FriuliVeneziaGiulia_23.01.2024_13.42.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Lazio_07.02.2024_12.27.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Lazio_23.02.2024_13.11.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Lazio_26.02.2024_14.39.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Lazio_26.02.2024_17.48.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Liguria_01.03.2024_19.21.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Liguria_07.02.2024_14.36.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Marche_04.03.2024_11.55.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Marche_07.02.2024_19.20.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Molise_04.03.2024_14.37.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Molise_08.02.2024_17.05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Puglia_05.03.2024_16.18.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Sardegna_07.03.2024_14.48.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Sicilia_07.03.2024_17.12.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Sicilia_24.01.2024_13.32.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Trento_28.02.2024_20.59.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_Umbria_07.03.2024_19.40.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/Test_CalcolTariffe_Titano_ValledAosta_27.02.2024_16.24.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Abruzzo_Speciali_08.03.2024_11.51.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Basilicata_Speciali_08.03.2024_14.56.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Calabria_Speciali_08.03.2024_15.26.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Campania_Speciali_08.03.2024_16.07.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_EmiliaRomagna_Speciali_08.03.2024_16.48.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Friuli_Speciali_08.03.2024_18.26.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Lazio_Speciali_08.03.2024_18.57.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Liguria_Speciali_11.03.2024_10.54.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Marche_Speciali_11.03.2024_11.25.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Molise_Speciali_11.03.2024_13.05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Puglia_Speciali_11.03.2024_14.37.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Sardegna_Speciali_11.03.2024_15.07.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Sicilia_Speciali_11.03.2024_16.07.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Trento_Speciali_11.03.2024_17.51.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_Umbria_Speciali_08.03.2024_11.20.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Speciali/Test_CalcolTariffe_Titano_ValledAosta_Speciali_11.03.2024_18.22.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_PH_21.01.2025_17.12.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_PH_21.01.2025_18.05.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_PH_23.01.2025_15.56.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_PH_23.01.2025_17.23.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_PH_24.01.2025_15.28.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_ServiziEse_21.01.2025_11.20.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/Test_Istanza_Rimborso_RegimiS_ServiziEse_21.01.2025_16.45.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta_PRA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Vocale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloTariffe/ACI_CalcoloTariffe_Sinta_Esercizio_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloTariffe/ACI_CalcoloTariffe_perMese_Sinta_Esercizio_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_IstanzaRimborso/ACI_Instanza_Rimborso_Aggiornata_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_IstanzaRimborso/ACI_Instanza_Rimborso_Regimi_Speciali_PH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_IstanzaRimborso/ACI_Instanza_Rimborso_Regimi_Speciali_Serivizio_Esente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_IstanzaRimborso/ACI_Instanza_Rimborso_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/CalcoloBolloPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/CalcoloTariffePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/InstanzaRimborso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Login_Sinta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Login_Spid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/MonitoraggioVocale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Sinta_CalcoloTariffePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Sinta_Plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Sinta_PosizioneTributaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/inserimentoParametri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C02_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C02_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C03_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C03_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_InstanzaRimborsoPH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_InstanzaRimborsoRegimiSpeciali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_SportelloCittadino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Campania_Specialità.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Emilia_Specialità.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Lazio_Specialità.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Molise_Specialità.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Molise_Specialità_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Bolzano.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Emilia_AB_3mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Lazio_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Trento.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_ValledAosta_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Abruzzo_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Basilicata_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Bolzano_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Bolzano_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Calabria_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Campania_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_EmiliaRomagna_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_FriuliVeneziaGiulia_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Lazio_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Liguria_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Marche_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Molise_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Puglia_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Sardegna_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Sicilia_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Trento_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2024_Umbria_12mesi.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_Emilia.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_Lazio_2022.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Umbria_Specialità_2022.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Test.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Abruzzo_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Basilicata_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Bolzano_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Calabria_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Campania_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_EmiliaRomagna_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Friuli_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Lazio_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Liguria_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Marche_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Molise_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Puglia_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sardegna_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sicilia_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Abruzzo_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Basilicata_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Bolzano_12mesi_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Bolzano_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Bolzano_Dicembre_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Calabria_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Campania_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_EmiliaRomagna_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_FriuliVeneziaGiulia_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Lazio_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Liguria_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Marche_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Molise_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Puglia_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Puglia_12mesi_Riduzioni.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Sardegna_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Sicilia_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Trento_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_Umbria_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2024_ValledAosta_12mesi_Euro5_6.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Trento_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Umbria_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_ValledAosta_Specialità_2024.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test_Bolzano.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/1_A.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/2_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/3_3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Regimi_Speciali.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Regimi_Speciali_PH.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Regimi_Speciali_servizi_Esenti.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi_Prova_per_QUERY.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Instanza/pdf_A_b1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/CalcoloBolloPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/CalcoloTariffePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/InstanzaRimborso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/Login_Sinta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/Sinta_CalcoloTariffePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/Sinta_Plus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/Sinta_PosizioneTributaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/POM/inserimentoParametri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/ACI_PosizioneTributaria_02.05.2023_16.23.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/ACI_PosizioneTributaria_02.05.2023_16.23.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/ACI_PosizioneTributaria_03.05.2023_13.31.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/ACI_PosizioneTributaria_03.05.2023_13.31.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/ACI_PosizioneTributaria_17.05.2023_11.06.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/ACI_PosizioneTributaria_17.05.2023_11.06.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/ACI_PosizioneTributaria_28.04.2023_13.03.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/ACI_PosizioneTributaria_28.04.2023_13.03.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/fileOutput/ACI_PosizioneTributaria_28.04.2023_17.10.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/OLD/ACI_PosizioneTributaria_28.04.2023_17.10.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo_perDatiDichiarati_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo/ACI_CalcoloBollo_perDatiDichiarati_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo_perTargaPeriodoTributario_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo/ACI_CalcoloBollo_perTargaPeriodoTributario_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo_perTarga_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloBollo/ACI_CalcoloBollo_perTarga_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloTariffe_Sinta_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloTariffe/ACI_CalcoloTariffe_Sinta_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_Calcolo_Tariffe_nstar_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_CalcoloTariffe/ACI_Calcolo_Tariffe_nstar_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_Instanza_Rimborso_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_Instanza_Rimborso_Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI_SintaPlus_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_SintaPlus_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/Aci_PosizioneTributaria_Multiplo2_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/Aci_PosizioneTributaria_Multiplo2_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/Aci_PosizioneTributaria_Multiplo_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/Aci_PosizioneTributaria_Multiplo_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/Aci_PosizioneTributaria_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/Aci_PosizioneTributaria_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_CalcoloTariffa_Sinta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/utils/ExcelUtils_CalcoloTariffa_Sinta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/121222.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/121222.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/F4120600" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/F4120600" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_NSTAR_2022_Puglia.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_NSTAR_2022_Puglia.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_NSTAR_2022_Umbria2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_NSTAR_2022_Umbria2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Abruzzo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Abruzzo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Basilicata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Basilicata.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Puglia.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Puglia.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_Umbria_Finale.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_Umbria_Finale.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_2022_ValledAosta_Finale.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_2022_ValledAosta.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_Lazio_2022.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Tariffario_Sinta_Lazio_2022_Finale.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Tariffario_Sinta_Lazio_2022_Finale.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test2.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Test2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/Test_Tariffario.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcolTariffe/OLD/Test_Tariffario.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/ACI_CalcoloBollo_perTarga.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/ACI_CalcoloBollo_perTarga.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/Test_0001_CalcoloBollo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/CalcoloBollo/Test_0001_CalcoloBollo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Instanza/Allegato_Prova.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Lazio_08-05-2023.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Instanza/DataPool_Rimborsi.Lazio_08-05-2023.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Instanza/Testt.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Instanza/Testt.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +253,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -92,6 +264,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2OrecH5vy2m4U146qM9GVtwczAM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -103,55 +281,71 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.ACI_Sportello_Cittadino_Test_Suite.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Gabriele Campanale/OneDrive/Desktop/ACI-CalcoloTariffe",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Online.executor": "Run",
+    "TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Ufficio.executor": "Run",
+    "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Online.executor": "Run",
+    "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Ufficio.executor": "Run",
+    "TestNG.SUT_C01_01.executor": "Run",
+    "TestNG.SUT_C01_02.executor": "Run",
+    "TestNG.SUT_C01_03.executor": "Run",
+    "TestNG.SUT_C01_04.executor": "Run",
+    "TestNG.SUT_C01_05.executor": "Run",
+    "TestNG.SUT_C01_06_Draft.executor": "Run",
+    "TestNG.SUT_C01_07_Draft.executor": "Run",
+    "TestNG.SUT_C02_01.executor": "Run",
+    "TestNG.SUT_C02_02.executor": "Run",
+    "TestNG.SUT_C03_01.executor": "Run",
+    "TestNG.SUT_C03_02.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ugolini/Desktop/ACI_Calcolo_Tariffe/src/test/resources/Instanza",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aci.test.SportelloCittadino" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\resources\Instanza" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\resources\CalcolTariffe" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\java\com\aci\fileOutput" />
       <recent name="C:\Users\Gabriele Campanale\OneDrive\Desktop\ACI_Calcolo_Tariffe\src\test\resources\Instanza" />
       <recent name="C:\Users\Gabriele Campanale\OneDrive\Desktop\ACI_Calcolo_Tariffe\src\test\resources\CalcoloBollo" />
-      <recent name="C:\Users\Gabriele Campanale\OneDrive\Desktop\ACI_Calcolo_Tariffe\src\test" />
-      <recent name="C:\Users\Gabriele Campanale\OneDrive\Desktop\ACI_Calcolo_Tariffe\src\test\java\com\aci" />
-      <recent name="C:\Users\Gabriele Campanale\OneDrive\Desktop\ACI_Calcolo_Tariffe\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gabriele Campanale\OneDrive\Desktop\ACI_Calcolo_Tariffe\src\test" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\resources\SportelloCittadino" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\resources\Instanza" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\java\com\aci\OLD" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\resources\CalcolTariffe" />
+      <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\java\com\aci\fileOutput\Speciali" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aci.test" />
       <recent name="com.aci.utils" />
+      <recent name="com.aci.test.SportelloCittadino" />
+      <recent name="com.aci.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ACI_Instanza_Rimborso_Test2">
-    <configuration name="ACIApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACIApp" />
-      <module name="ACI_Calcolo_Tariffe" />
+  <component name="RunManager" selected="TestNG.SUT_C02_01">
+    <configuration name="SUT_C01_04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aci.test.*" />
+          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ACI_Instanza_Rimborso_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI_Calcolo_Tariffe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aci.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI_Instanza_Rimborso_Test" />
+      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_04" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -159,16 +353,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ACI_Instanza_Rimborso_Test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI_Calcolo_Tariffe" />
+    <configuration name="SUT_C01_05" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aci.test.*" />
+          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI_Instanza_Rimborso_Test2" />
+      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_05" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -176,16 +370,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ACI_SintaPlus_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI_Calcolo_Tariffe" />
+    <configuration name="SUT_C01_06" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aci.test.*" />
+          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI_SintaPlus_Test" />
+      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_06" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -193,16 +387,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aci_PosizioneTributaria_Multiplo2_Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI_Calcolo_Tariffe" />
+    <configuration name="SUT_C01_07" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aci.test.*" />
+          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.Aci_PosizioneTributaria_Multiplo2_Test" />
+      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_07" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SUT_C02_01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C02_01" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -212,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ACI_Instanza_Rimborso_Test2" />
-        <item itemvalue="TestNG.ACI_Instanza_Rimborso_Test" />
-        <item itemvalue="Application.ACIApp" />
-        <item itemvalue="TestNG.ACI_SintaPlus_Test" />
-        <item itemvalue="TestNG.Aci_PosizioneTributaria_Multiplo2_Test" />
+        <item itemvalue="TestNG.SUT_C02_01" />
+        <item itemvalue="TestNG.SUT_C01_07" />
+        <item itemvalue="TestNG.SUT_C01_06" />
+        <item itemvalue="TestNG.SUT_C01_05" />
+        <item itemvalue="TestNG.SUT_C01_04" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +442,11 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -244,5 +460,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ACI_Calcolo_Tariffe$ACI_CalcoloTariffe_perMese_Sinta_Esercizio_Test.ic" NAME="ACI_CalcoloTariffe_perMese_Sinta_Esercizio_Test Coverage Results" MODIFIED="1704721977498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aci.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
