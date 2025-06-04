@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9ce6739-aeaa-47df-8104-6a5f91030290" name="Changes" comment="Grosso Update per ACI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,15 +30,15 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Gabriele-CL"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gabriele-CL&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Gabriele-CL/ACI",
+    "url": "https://github.com/Gabriele-CL/ACI.git",
     "accountId": "5f75f5b8-7fee-4464-8bb0-0360a59fc34e"
   }
 }]]></component>
@@ -73,6 +73,7 @@
     "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Ufficio.executor": "Run",
     "TestNG.SUT_C01_01.executor": "Run",
     "TestNG.SUT_C01_02.executor": "Run",
+    "TestNG.SUT_C01_03 (1).executor": "Run",
     "TestNG.SUT_C01_03.ACI_Sportello_UT.executor": "Run",
     "TestNG.SUT_C01_03.executor": "Run",
     "TestNG.SUT_C01_04.executor": "Run",
@@ -85,7 +86,7 @@
     "TestNG.SUT_C03_02.executor": "Run",
     "git-widget-placeholder": "Test__ACI",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ugolini/Desktop/ACI_Calcolo_Tariffe/src/test/resources/Instanza",
+    "last_opened_file_path": "C:/Users/ugolini/Documents/GitHub/ACI",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -117,7 +118,7 @@
       <recent name="com.aci.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SUT_C01_01">
+  <component name="RunManager" selected="TestNG.SUT_C01_03 (1)">
     <configuration name="SUT_C01_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ACI" />
       <extension name="coverage">
@@ -145,6 +146,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
       <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_02" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SUT_C01_03 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_03" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -187,30 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SUT_C02_01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="excel-poi-handler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C02_01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SUT_C01_03 (1)" />
         <item itemvalue="TestNG.SUT_C01_01" />
         <item itemvalue="TestNG.SUT_C01_03" />
         <item itemvalue="TestNG.SUT_C01_03.ACI_Sportello_UT" />
         <item itemvalue="TestNG.SUT_C01_02" />
-        <item itemvalue="TestNG.SUT_C02_01" />
       </list>
     </recent_temporary>
   </component>

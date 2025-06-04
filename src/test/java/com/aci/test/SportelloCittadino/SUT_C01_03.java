@@ -148,6 +148,7 @@ public class SUT_C01_03 {
         Sportello.clickCreata();
         Thread.sleep(3000);
         Sportello.clickCreata();
+        Thread.sleep(3000);
 
         List<WebElement> righe = driver.findElements(By.xpath("//div[@role=\"gridcell\"][7]"));
 
@@ -163,7 +164,7 @@ public class SUT_C01_03 {
                 if (coloAppuntamento.equals(appuntamento) && pratica.equals(modalità)) {
 
                     System.out.println("Orario e luogo appuntamento sono corretti");
-                    driver.executeScript("arguments[0].scrollIntoView(true);", cestino);
+                    driver.executeScript("arguments[0].focus();", cestino);
                     cestino.click();
                     System.out.println("Cliccato il cestino per la riga con appuntamento: " + appuntamento);
                     break;
