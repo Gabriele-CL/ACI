@@ -134,6 +134,7 @@ public class SUT_C01_06 {
         Sportello.clickCreata();
         Thread.sleep(3000);
         Sportello.clickCreata();
+        Thread.sleep(3000);
 
         //Confronto ed eliminazione appuntamento per ciclo
         List<WebElement> righe = driver.findElements(By.xpath("//div[@role=\"gridcell\"][7]"));
@@ -152,7 +153,7 @@ public class SUT_C01_06 {
                 if (pratica.equals(modalità) && statoFinale.equals(stato)) {
 
                     System.out.println("Appuntamento online e inviato");
-                    driver.executeScript("arguments[0].scrollIntoView(true);", cestino);
+                    driver.executeScript("arguments[0].focus();", cestino);
                     cestino.click();
                     break;
                 }

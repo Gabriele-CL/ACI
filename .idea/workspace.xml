@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ce6739-aeaa-47df-8104-6a5f91030290" name="Changes" comment="Grosso Update per ACI">
+      <change afterPath="$PROJECT_DIR$/Test_Anta/ultima_riga.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta_Esenzioni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/EsecuzioneTestAntaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/LeggiFlussoExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Gestione_Anta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C03_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C03_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +46,12 @@
     &quot;assignee&quot;: &quot;Gabriele-CL&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Gabriele-CL/ACI.git",
-    "accountId": "5f75f5b8-7fee-4464-8bb0-0360a59fc34e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gabriele-CL/ACI.git&quot;,
+    &quot;accountId&quot;: &quot;5f75f5b8-7fee-4464-8bb0-0360a59fc34e&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -62,23 +72,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ACI_Anta.executor": "Run",
+    "Application.ACI_Anta2.executor": "Run",
+    "Application.ConfrontoDBExcel.executor": "Run",
+    "Application.LeggiFlussoExcel.executor": "Run",
     "JUnit.ACI_Sportello_Cittadino_Test_Suite.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni.executor": "Run",
+    "TestNG.ACI_Anta_Esenzioni.executor": "Run",
     "TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Online.executor": "Run",
     "TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Ufficio.executor": "Run",
     "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Online.executor": "Run",
     "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Ufficio.executor": "Run",
+    "TestNG.EsecuzioneTestAntaTest.executor": "Run",
     "TestNG.SUT_C01_01.executor": "Run",
     "TestNG.SUT_C01_02.executor": "Run",
     "TestNG.SUT_C01_03 (1).executor": "Run",
     "TestNG.SUT_C01_03.ACI_Sportello_UT.executor": "Run",
     "TestNG.SUT_C01_03.executor": "Run",
+    "TestNG.SUT_C01_03_2.executor": "Run",
     "TestNG.SUT_C01_04.executor": "Run",
     "TestNG.SUT_C01_05.executor": "Run",
+    "TestNG.SUT_C01_06.executor": "Run",
     "TestNG.SUT_C01_06_Draft.executor": "Run",
+    "TestNG.SUT_C01_07.executor": "Run",
     "TestNG.SUT_C01_07_Draft.executor": "Run",
     "TestNG.SUT_C02_01.executor": "Run",
     "TestNG.SUT_C02_02.executor": "Run",
@@ -113,56 +133,49 @@
       <recent name="C:\Users\ugolini\Desktop\ACI_Calcolo_Tariffe\src\test\java\com\aci\fileOutput\Speciali" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aci.utils" />
+      <recent name="com.aci.test.ACI" />
       <recent name="com.aci.test.SportelloCittadino" />
+      <recent name="com.aci.utils" />
       <recent name="com.aci.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SUT_C01_03 (1)">
-    <configuration name="SUT_C01_01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_01" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SUT_C01_02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_02" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SUT_C01_03 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ACI_Anta_Esenzioni">
+    <configuration name="ConfrontoDBExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI.ConfrontoDBExcel" />
       <module name="excel-poi-handler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
+          <option name="PATTERN" value="com.aci.test.ACI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeggiFlussoExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI.LeggiFlussoExcel" />
+      <module name="excel-poi-handler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aci.test.ACI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ACI_Anta_Esenzioni" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aci.test.ACI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aci.test.ACI" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI.ACI_Anta_Esenzioni" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -170,35 +183,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SUT_C01_03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI" />
+    <configuration name="ACI_Anta_Esenzioni.ACI_Anta_Esenzioni" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
+          <option name="PATTERN" value="com.aci.test.ACI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_03" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SUT_C01_03.ACI_Sportello_UT" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ACI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aci.test.SportelloCittadino.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aci.test.SportelloCittadino" />
-      <option name="MAIN_CLASS_NAME" value="com.aci.test.SportelloCittadino.SUT_C01_03" />
-      <option name="METHOD_NAME" value="ACI_Sportello_UT" />
+      <option name="PACKAGE_NAME" value="com.aci.test.ACI" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI.ACI_Anta_Esenzioni" />
+      <option name="METHOD_NAME" value="ACI_Anta_Esenzioni" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsecuzioneTestAntaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="excel-poi-handler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aci.test.ACI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aci.test.ACI" />
+      <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI.EsecuzioneTestAntaTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -207,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SUT_C01_03 (1)" />
-        <item itemvalue="TestNG.SUT_C01_01" />
-        <item itemvalue="TestNG.SUT_C01_03" />
-        <item itemvalue="TestNG.SUT_C01_03.ACI_Sportello_UT" />
-        <item itemvalue="TestNG.SUT_C01_02" />
+        <item itemvalue="TestNG.ACI_Anta_Esenzioni" />
+        <item itemvalue="Application.LeggiFlussoExcel" />
+        <item itemvalue="TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni" />
+        <item itemvalue="Application.ConfrontoDBExcel" />
+        <item itemvalue="TestNG.EsecuzioneTestAntaTest" />
       </list>
     </recent_temporary>
   </component>

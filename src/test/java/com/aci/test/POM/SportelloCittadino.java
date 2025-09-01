@@ -13,6 +13,7 @@ import java.util.List;
 public class SportelloCittadino {
     WebDriver driver;
     WebElement element;
+    WebDriverWait wait;
 
     @FindBy(xpath = "(//div[@role=\"listitem\"])[1]")
     WebElement opzionePRA;
@@ -363,8 +364,9 @@ public class SportelloCittadino {
         this.online.click();
     }
 
-    public void clickContinuaSulSito(){
+    public void clickContinuaSulSito() throws InterruptedException{
         System.out.println("🌍 Clicco su: Continua sul Sito");
+        Thread.sleep(3000);
         this.continuaSulSito.click();
     }
 
@@ -372,6 +374,24 @@ public class SportelloCittadino {
         System.out.println("📝 Compilo la richiesta con testo di esempio");
         this.datiRichiesta.sendKeys("Test per dati richiesta");
     }
+
+    public void compilaDati() {
+        setTarga();
+        setCodiceFiscale();
+        setNumero();
+        setVerificaCell();
+        setEmail();
+        setVerificaEmail();
+        clickSuccessivo();
+    }
+
+    public void uploadDocumenti() {
+        clickCaricaDocumenti();
+        inserisciDocumenti();
+        clickClose();
+        clickSuccessivo();
+    }
+
 
 
 }

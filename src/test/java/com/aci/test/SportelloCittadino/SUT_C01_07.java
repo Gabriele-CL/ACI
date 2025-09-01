@@ -116,6 +116,7 @@ public class SUT_C01_07 {
         Sportello.clickCreata();
         Thread.sleep(3000);
         Sportello.clickCreata();
+        Thread.sleep(3000);
 
         //Verificare che sia Online e Salvata
         List<WebElement> righe = driver.findElements(By.xpath("//div[@role=\"gridcell\"][7]"));
@@ -133,7 +134,7 @@ public class SUT_C01_07 {
                 if (pratica.equals(modalità) && statoFinale.equals(stato)) {
 
                     System.out.println("Appuntamento online e in bozza");
-                    driver.executeScript("arguments[0].scrollIntoView(true);", cestino);
+                    driver.executeScript("arguments[0].focus();", cestino);
                     cestino.click();
                     break;
                 }

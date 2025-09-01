@@ -76,7 +76,7 @@ public class SUT_C03_01 {
         // Compilazione Richiesta
         Thread.sleep(8000);
         Sportello.clickOpzioneURP();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         Sportello.clickRichiestaInfo();
         Thread.sleep(2000);
         Sportello.clickUfficio();
@@ -214,6 +214,6 @@ public class SUT_C03_01 {
 
         workbook.close();
 
-        driver.close();
+        //driver.close();
     }
 }

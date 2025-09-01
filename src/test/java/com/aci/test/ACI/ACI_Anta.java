@@ -70,8 +70,8 @@ public class ACI_Anta {
 
                 }
 
-                //System.out.println("File generato: " + outputFile);
-               // uploadFile(outputFile, server, port, user, pass);
+                System.out.println("File generato: " + outputFile);
+               //uploadFile(outputFile, server, port, user, pass);
             }
 
         } catch (IOException e) {
