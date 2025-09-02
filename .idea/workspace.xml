@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ce6739-aeaa-47df-8104-6a5f91030290" name="Changes" comment="Grosso Update per ACI">
-      <change afterPath="$PROJECT_DIR$/Test_Anta/ultima_riga.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta_Esenzioni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/EsecuzioneTestAntaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/LeggiFlussoExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Gestione_Anta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/SportelloCittadino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C01_07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C03_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/SportelloCittadino/SUT_C03_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SportelloCittadino/Sportello UT - Test Automatici.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta_Esenzioni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/ACI_Anta_Esenzioni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/LeggiFlussoExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/ACI/LeggiFlussoExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Gestione_Anta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aci/test/POM/Gestione_Anta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +48,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\xclt03\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -69,51 +69,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.ACI_Anta.executor": "Run",
-    "Application.ACI_Anta2.executor": "Run",
-    "Application.ConfrontoDBExcel.executor": "Run",
-    "Application.LeggiFlussoExcel.executor": "Run",
-    "JUnit.ACI_Sportello_Cittadino_Test_Suite.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni.executor": "Run",
-    "TestNG.ACI_Anta_Esenzioni.executor": "Run",
-    "TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Online.executor": "Run",
-    "TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Ufficio.executor": "Run",
-    "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Online.executor": "Run",
-    "TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Ufficio.executor": "Run",
-    "TestNG.EsecuzioneTestAntaTest.executor": "Run",
-    "TestNG.SUT_C01_01.executor": "Run",
-    "TestNG.SUT_C01_02.executor": "Run",
-    "TestNG.SUT_C01_03 (1).executor": "Run",
-    "TestNG.SUT_C01_03.ACI_Sportello_UT.executor": "Run",
-    "TestNG.SUT_C01_03.executor": "Run",
-    "TestNG.SUT_C01_03_2.executor": "Run",
-    "TestNG.SUT_C01_04.executor": "Run",
-    "TestNG.SUT_C01_05.executor": "Run",
-    "TestNG.SUT_C01_06.executor": "Run",
-    "TestNG.SUT_C01_06_Draft.executor": "Run",
-    "TestNG.SUT_C01_07.executor": "Run",
-    "TestNG.SUT_C01_07_Draft.executor": "Run",
-    "TestNG.SUT_C02_01.executor": "Run",
-    "TestNG.SUT_C02_02.executor": "Run",
-    "TestNG.SUT_C03_01.executor": "Run",
-    "TestNG.SUT_C03_02.executor": "Run",
-    "git-widget-placeholder": "Test__ACI",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ugolini/Documents/GitHub/ACI",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ACI_Anta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ACI_Anta2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfrontoDBExcel.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeggiFlussoExcel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ACI_Sportello_Cittadino_Test_Suite.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ACI_Anta_Esenzioni.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Online.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ACI_Sportello_Cittadino_AppuntamentoTasse_Ufficio.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Online.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ACI_Sportello_Cittadino_Appuntamento_URP_Ufficio.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EsecuzioneTestAntaTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_03 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_03.ACI_Sportello_UT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_03.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_03_2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_04.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_05.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_06.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_06_Draft.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_07.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C01_07_Draft.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C02_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C02_02.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C03_01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SUT_C03_02.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Test__ACI&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ugolini/Documents/GitHub/ACI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.aci.test.SportelloCittadino" />
@@ -139,7 +139,7 @@
       <recent name="com.aci.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ACI_Anta_Esenzioni">
+  <component name="RunManager" selected="TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni">
     <configuration name="ConfrontoDBExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aci.test.ACI.ConfrontoDBExcel" />
       <module name="excel-poi-handler" />
@@ -165,6 +165,17 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ACI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ACI" />
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <configuration name="ACI_Anta_Esenzioni" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="excel-poi-handler" />
@@ -220,9 +231,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni" />
         <item itemvalue="TestNG.ACI_Anta_Esenzioni" />
         <item itemvalue="Application.LeggiFlussoExcel" />
-        <item itemvalue="TestNG.ACI_Anta_Esenzioni.ACI_Anta_Esenzioni" />
         <item itemvalue="Application.ConfrontoDBExcel" />
         <item itemvalue="TestNG.EsecuzioneTestAntaTest" />
       </list>

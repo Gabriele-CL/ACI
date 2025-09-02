@@ -20,8 +20,8 @@ import org.json.JSONObject;
 
 public class Gestione_Anta {
 
-    private final String filePath = "C:/Users/ugolini/Desktop/ATPABAZ.D0013022.T000050";
-    private final String outputDir = "C:/Users/ugolini/Desktop/Test_Anta/";
+    private final String filePath = "C:/Users/xclt03/Desktop/ATPABAZ.D0013022.T000050";
+    private final String outputDir = "C:/Users/xclt03/Desktop/Test_Anta/";
     private final String prefissoNomeFile = "ATPABAZ.D0013022.";
 
     // ✅ Metodo aggiornato
@@ -41,7 +41,7 @@ public class Gestione_Anta {
             // Calcola l'ultimo SC usato tra tutti i file esistenti
             // Leggi la targa da ultima_riga.txt, se esiste
             int counter;
-            File ultimaRigaFile = new File("C:/Users/ugolini/Desktop/Test_Anta/Test_Anta/ultima_riga.txt");
+            File ultimaRigaFile = new File("C:/Users/xclt03/Desktop/Test_Anta/Test_Anta/ultima_riga.txt");
 
             if (ultimaRigaFile.exists()) {
                 try (BufferedReader br = new BufferedReader(new FileReader(ultimaRigaFile))) {
@@ -112,7 +112,7 @@ public class Gestione_Anta {
 
             if (!ultimaTarga.isEmpty()) {
                 System.out.println("📌 Ultima targa generata: " + ultimaTarga);
-                File outputTarga = new File("C:/Users/ugolini/Desktop/Test_Anta/Test_Anta/ultima_riga.txt");
+                File outputTarga = new File("C:/Users/xclt03/Desktop/Test_Anta/Test_Anta/ultima_riga.txt");
                 outputTarga.getParentFile().mkdirs();
                 try (BufferedWriter targaWriter = new BufferedWriter(new FileWriter(outputTarga))) {
                     targaWriter.write(ultimaTarga);

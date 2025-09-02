@@ -13,9 +13,9 @@ import java.util.List;
 public class LeggiFlussoExcel {
 
     public void LeggiFlussoExcel() {
-        String filePath = "C:/Users/ugolini/Desktop/Test_Anta/Test acquisizione tracciati ANTA.xlsx";
+        String filePath = "C:/Users/xclt03/Desktop/Test_Anta/Test acquisizione tracciati ANTA.xlsx";
         String sheetName = "Schema Bolzano";
-        String flussoTarget = "ATPABAZ.D0023022.T011070";
+        String flussoTarget = "ATPABAZ.D0013022.T000050";
 
         try (FileInputStream fis = new FileInputStream(filePath);
              Workbook workbook = new XSSFWorkbook(fis)) {

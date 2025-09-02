@@ -11,9 +11,16 @@ public class ACI_Anta_Esenzioni {
     public void ACI_Anta_Esenzioni() throws Exception {
         Gestione_Anta anta = new Gestione_Anta();
         LeggiFlussoExcel excelFlusso = new LeggiFlussoExcel();
-        //anta.generaFileConProgressivoContinuo();
+        System.out.println("Generiamo un nuovo flusso");
+        anta.generaFileConProgressivoContinuo();
+
+        //System.out.println("Verichiamo che il flusso sia elaborato");
         //anta.ControlloEsiti();
-        //anta.ControlloDataFineEsenzioneDaFile("C:/Users/ugolini/Desktop/Test_Anta/ATPABAZ.D0013022.T000007");
+
+        System.out.println("Verichiamo Data Fine esenzione da DB");
+        anta.ControlloDataFineEsenzioneDaFile("C:/Users/xclt03/Desktop/Test_Anta/ATPABAZ.D0013022.T000007");
+
+        System.out.println("Verichiamo Data Fine esenzione da Excel");
         excelFlusso.LeggiFlussoExcel();
     }
 }
